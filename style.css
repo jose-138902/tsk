@@ -10,7 +10,9 @@ body {
     flex-direction: column;
     justify-content: space-between; }
 
-
+main,footer,header{
+    margin-bottom: 30px;
+}
 
 header{
     background-image: url("https://www.freepik.com/free-photos-vectors/authentic-professional-background");
