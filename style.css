@@ -10,49 +10,55 @@ body {
     flex-direction: column;
     justify-content: space-between; }
 
-header, main, footer {
-    padding: 20px;              
-    text-align: center;  
-    height: 50vh;
-    
 
-}
 
 header{
     background-image: url("https://pngtree.com/free-backgrounds-photos/website");
+    height: 300vh;
 }
 
+
+
 main{
+    height: 75vh;
     background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.1) 0%, rgba(50, 82, 64, 0.1) 29%, rgba(245, 220, 0, 0.1) 100%) ,url("https://www.123freevectors.com/abstract-cool-grey-texture-background-design-120752/");
 }
 
 footer{
+    height: 50vh;
     background-image: url("https://unsplash.com/s/photos/website-background");
 }
 
 
 
+.title{
+    color: white; 
+    text-shadow: 2px 2px 2px black;
+    animation:a;
+    animation-iteration-count: infinite;
+}
 
-h1 {
-    color: #4DA6FF;            }
 
-p {
-    line-height: 1.5;           
-    max-width: 600px;          
-    margin: 20px auto;          
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0; 
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1; 
+  }
 }
 
 a {
-    color: #4DA6FF;            
-    text-decoration: none;      
+  animation-name: slideIn;
+  animation-duration: 1s; /* How long the animation takes */
+  animation-timing-function: ease-out; /* Makes the animation smoother */
+  animation-fill-mode: forwards; /* Ensures the title stays in its final position after the animation finishes */
 }
 
-a:hover{
-  color: red;
-  text-shadow: 2px 2px 3px black;
-  
-}
 
-a:hover {
-    text-decoration: underline; 
-}
+
+
+
+
