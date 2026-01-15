@@ -58,7 +58,7 @@ footer{
    color: white; 
     text-shadow: 2px 2px 2px black;
     animation:a;
-    animation-iteration-count: infinite;  
+    animation-iteration-count: 1;  
   animation-name: slideIn;
   animation-duration: 1s; /* How long the animation takes */
   animation-timing-function: ease-out; /* Makes the animation smoother */
