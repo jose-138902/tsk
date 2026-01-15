@@ -14,20 +14,23 @@ main,footer,header{
     margin-bottom: 30px;
 }
 
-header{
+.hd1{
     background-image: url("https://www.freepik.com/free-photos-vectors/authentic-professional-background");
     height: 300vh;
     box-shadow: 2px 2px 2px blue;
 }
 .nav1{
+    display: 1;
     float: right;
 }
 
 .c{
     display: flex;
+    justify-content: space-between;
 }
 
 .main{
+    display: 1;
     width:50%;
     height: 75vh;
     background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.1) 0%, rgba(50, 82, 64, 0.1) 29%, rgba(245, 220, 0, 0.1) 40%) ,url("https://www.123freevectors.com/abstract-cool-grey-texture-background-design-120752/");
@@ -38,6 +41,7 @@ header{
 }
 
 .n1 ,.n2{
+    display: 1;
     width:25%;
     height: 75vh;
     box-shadow: 2px 2px 5px blue;
