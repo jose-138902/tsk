@@ -19,7 +19,7 @@ header{
     height: 300vh;
 }
 
-main{
+.c{
     display: flex;
 }
 
