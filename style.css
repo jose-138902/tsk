@@ -12,37 +12,16 @@ body {
     justify-content: space-between;\
 }
 
+
+/*main  */
 main{
     margin-bottom: 50px;
 }
 
-.hd1{
-    background-image: url("https://www.freepik.com/free-photos-vectors/authentic-professional-background");
-    height: 30vh;
-    box-shadow: 2px 2px 2px blue;
-    border: 7px solid black;
-}
-.nav1{
-    display: 1;
-    float: right;
-    
-}
-
-.no{
-    background-color: #FFD700;
-    color: black;
-    border-radius: 30%;
-    border-style: inset;
-    border-width: thick;
-    margin: 15px;
-}
-
-.no:hover{
-    background-color:#D3AF37;
-}
 
 .c{
     display: flex;
+    height: calc(sqr(9));
     justify-content: space-between;
     border: 7px solid black;
 }
@@ -56,6 +35,9 @@ main{
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 5px white;
+    color: black;
+    font-family: palatino;
+    font-size: 10px;
 }
 
 .n1 ,.n2{
@@ -65,20 +47,34 @@ main{
     box-shadow: 2px 2px 5px blue;
 }
 
+/*  footer/contact*/
+
 footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 50vh;
+    height: 30vh;
     box-shadow: 2px 2px 2px blue;
     background-image: url("https://www.freepik.com/free-photos-vectors/professional-background");
     border: 7px solid black;
+    color: black;
+    font-family:monospace;
+    font-size: 10px;
+    box-shadow: 2px 2px 3px white;
 }
 
 
 
 
 
+/* title */
+
+.hd1{
+    background-image: url("https://www.freepik.com/free-photos-vectors/authentic-professional-background");
+    height: 30vh;
+    box-shadow: 2px 2px 2px blue;
+    border: 7px solid black;
+}
 
 @keyframes slideIn {
   from {
@@ -100,6 +96,26 @@ footer{
   animation-duration: 1s; /* How long the animation takes */
   animation-timing-function: ease-out; /* Makes the animation smoother */
   animation-fill-mode: forwards; /* Ensures the title stays in its final position after the animation finishes */
+}
+
+/* nav */
+.nav1{
+    display: 1;
+    float: right;
+    
+}
+
+li{
+    background-color: #FFD700;
+    color: black;
+    border-radius: 30%;
+    border-style: inset;
+    border-width: thick;
+    margin: 15px;
+}
+
+li:hover{
+    background-color:#D3AF37;
 }
 
 
