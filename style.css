@@ -10,18 +10,32 @@ body {
     flex-direction: column;
     justify-content: space-between; }
 
-main,footer,header{
-    margin-bottom: 30px;
+main{
+    margin-bottom: 50px;
 }
 
 .hd1{
     background-image: url("https://www.freepik.com/free-photos-vectors/authentic-professional-background");
-    height: 300vh;
+    height: 30vh;
     box-shadow: 2px 2px 2px blue;
 }
 .nav1{
     display: 1;
     float: right;
+    
+}
+
+.no{
+    background-color: #FFD700;
+    color: black;
+    border-radius: 30%;
+    border-style: inset;
+    border-width: thick;
+    margin: 15px;
+}
+
+.no:hover{
+    background-color:#D3AF37;
 }
 
 .c{
@@ -33,7 +47,7 @@ main,footer,header{
     display: 1;
     width:50%;
     height: 75vh;
-    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.1) 0%, rgba(50, 82, 64, 0.1) 29%, rgba(245, 220, 0, 0.1) 40%) ,url("https://www.123freevectors.com/abstract-cool-grey-texture-background-design-120752/");
+    background-image: url("https://www.123freevectors.com/abstract-cool-grey-texture-background-design-120752/");
     text-align: center;
     justify-content: center;
     align-items: center;
