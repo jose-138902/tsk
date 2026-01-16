@@ -105,13 +105,22 @@ footer{
     
 }
 
-li{
+.li2{
     background-color: #FFD700;
     color: black;
     border-radius: 30%;
     border-style: inset;
     border-width: thick;
-    margin: 15px;
+    float: left;
+}
+
+.li1{
+    background-color: #FFD700;
+    color: black;
+    border-radius: 30%;
+    border-style: inset;
+    border-width: thick;
+    float: right;
 }
 
 li:hover{
