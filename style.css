@@ -20,6 +20,7 @@ body {
 /*main  */
 main{
     margin-bottom: 50px;
+    height: 500px;
     background-color: dark-gray;
 }
 
