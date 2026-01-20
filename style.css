@@ -16,6 +16,7 @@ body {
 /*main  */
 main{
     margin-bottom: 50px;
+    background-color: dark-gray;
 }
 
 
@@ -60,6 +61,7 @@ footer{
     height: 30vh;
     box-shadow: 2px 2px 2px blue;
     background-image: url("https://www.freepik.com/free-photos-vectors/professional-background");
+    background-color: dark-gray;
     border: 7px solid black;
     color: black;
     font-family:monospace;
@@ -91,14 +93,14 @@ footer{
 
 .title{
    color: white; 
-    text-shadow: 5px 5px 10px blue;
-    animation:a;
-    animation-iteration-count: 1;  
-  animation-name: slideIn;
-  animation-duration: 1s; /* How long the animation takes */
-  animation-timing-function: ease-out; /* Makes the animation smoother */
-  animation-fill-mode: forwards; /* Ensures the title stays in its final position after the animation finishes */
-}
+   text-shadow: 5px 5px 10px blue;
+   animation:a;
+   animation-iteration-count: 1;  
+   animation-name: slideIn;
+   animation-duration: 1s; /* How long the animation takes */
+   animation-timing-function: ease-out; /* Makes the animation smoother */
+   animation-fill-mode: forwards; 
+   background-color: dark-gray;
 
 /* nav */
 .nav1{
