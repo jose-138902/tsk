@@ -26,7 +26,7 @@ main{
 
 .c{
     display: flex;
-    height: calc(sqr(9));
+    height: calc(sqr(20));
     justify-content: space-between;
     border: 7px solid black;
 }
@@ -34,7 +34,7 @@ main{
 .main{
     display: 1;
     width:50%;
-    height: 75vh;
+    height: 105vh;
     background-image: url("https://www.123freevectors.com/abstract-cool-grey-texture-background-design-120752/");
     text-align: center;
     justify-content: center;
@@ -47,12 +47,12 @@ main{
 
 .main2{
     color: black;
-    font-family:
+    font-family: sans-serif;
 }
 .n1 ,.n2{
     display: 1;
     width:25%;
-    height: 75vh;
+    height: 105vh;
     box-shadow: 2px 2px 5px blue;
 }
 
