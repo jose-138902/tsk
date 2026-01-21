@@ -33,6 +33,7 @@ main{
     background-color: gray;
 }
 
+
 .main{
     display: 1;
     width:50%;
@@ -47,10 +48,14 @@ main{
     font-size: 10px;
 }
 
+
+
 .main2{
     color: black;
     font-family: sans-serif;
 }
+
+
 .n1 ,.n2{
     display: 1;
     width:25%;
@@ -71,7 +76,7 @@ main{
     border: 7px solid black;
     color: black;
     font-family:monospace;
-    font-size: 50px;
+    font-size: 20px;
     box-shadow: 2px 2px 3px white;
 }
 
