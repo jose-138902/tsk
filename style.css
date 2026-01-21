@@ -71,7 +71,7 @@ main{
     height: 30vh;
     box-shadow: 2px 2px 2px blue;
     background-image: url("https://www.freepik.com/free-photos-vectors/professional-background");
-    background-color: rgba(white);
+    background-color: hsla(hsla(210, 20%, 98%, 1));
     border: 5px solid black;
     color: black;
     font-family:monospace;
