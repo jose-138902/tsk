@@ -41,6 +41,9 @@ main{
     text-overflow: ellipsis;
 }
 
+.jose{
+    background-image: linear-gradient(to right, black, white), url("Jose.png"); 
+}
 #main{
     display: 1;
     width:50%;
@@ -61,6 +64,8 @@ main{
 
 
 
+
+
 .n1 ,.n2{
     display: 1;
     width:25%;
@@ -75,14 +80,13 @@ main{
     align-items: center;
     text-align: center;
     height: 35vh;
-    box-shadow: 2px 2px 2px blue;    
-    background-color: hsla(210, 20%, 98%, 1);
-    background-image: linear-gradient(to right, lightblue, white)),url("1.avif");
-    border: 5px solid black;
     color: black;
     font-family:monospace;
     font-size: 20px;
     box-shadow: 2px 2px 6px black;
+    border: 5px solid black;
+    background-image:linear-gradient(to right, lightblue, white),url("1.avif");
+
 }
 
 
