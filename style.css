@@ -33,6 +33,10 @@ main{
     background-image: url("1.avif");
 }
 
+.ptl{
+    height: 50px;
+    width: 50px;
+}
 .pa{
     font-size: 14px;
     width: 100%;
