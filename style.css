@@ -80,20 +80,6 @@ main{
 
 /*  footer/contact*/
 
-.fta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 35vh;
-    color: black;
-    font-family:monospace;
-    font-size: 20px;
-    box-shadow: 2px 2px 6px black;
-    border: 5px solid black;
-    background-image:linear-gradient(to right, lightblue, white),url("1.avif");
-
-}
 
 
 
@@ -155,7 +141,23 @@ styled-list {
 
 
 
+.fta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 35vh;
+    color: black;
+    font-family:monospace;
+    font-size: 20px;
+    box-shadow: 2px 2px 6px black;
+    border: 5px solid black;
+    background-image:linear-gradient(to right, lightblue, white),url("1.avif");
+
+}
     /*work on  */
+
+    
 .contact-container {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
