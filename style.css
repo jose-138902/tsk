@@ -123,11 +123,12 @@ main{
 }
 /*nav  */
 .styled-list {
-  background-color: #f0f0f0; /* Add a light gray background */
+  background-color: white; /* Add a light gray background */
   padding: 20px;            /* Add space inside the list container */
   margin: 15px;             /* Add space outside the list container */
   list-style-type: square;  /* Change bullet type to squares */
   list-style-position: inside; /* Place markers inside the text flow */
+
 }
 
 /* Styling the individual list items (li) */
@@ -136,6 +137,7 @@ main{
   margin: 5px 0;            /* Add vertical space between items */
   padding: 5px;             /* Add padding around the text within each item */
   border-bottom: 1px solid #ddd; /* Add a subtle bottom border */
+  border-radius: 30%;
 }
 
 
