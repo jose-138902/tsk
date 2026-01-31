@@ -154,6 +154,8 @@ main{
     box-shadow: 2px 2px 6px black;
     border: 5px solid black;
     background-image:linear-gradient(to right, rgba(244,23,21,0.3), rgba(233,22,55,0.3)),url("1.avif");
+    overflow:auto;
+
 
 }
     /*work on  */
@@ -170,6 +172,7 @@ main{
 }
 
 .contact-container h2 {
+
     color: #333;
     margin-bottom: 15px;
     border-bottom: 2px solid #eee;
