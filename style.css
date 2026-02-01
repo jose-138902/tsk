@@ -34,10 +34,7 @@ main{
     background-image: url("1.avif");
 }
 
-.ptl{
-    height: 50px;
-    width: 50px;
-}
+
 .pa{
     font-size: 14px;
     width: 100%;
@@ -48,8 +45,11 @@ main{
 }
 
 .jose{
-    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(255,255,255,0.5)), url("j.png"); 
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(255,255,255,0.5)), url("jose.png"); 
     float: left;
+    height: 50px;
+    width: 50px;
+    
 }
 #main{
     display: 1;
